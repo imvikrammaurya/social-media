@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+server/.env
+
+# Build files
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency lock files (optional)
+package-lock.json
+yarn.lock
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Coverage reports
+coverage/
+
+# Database files
+*.sqlite
+*.db
